@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(67, 67, 110);
+    }
+
+header{
+    position: sticky;
+    top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: rgba(104, 104, 171, 0.975);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    }
+
+#bar{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+}
+#inicio{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+}
+
+
+main h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin: 20px
+}
+
+main p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 10px 300px;
+}
+
+main ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 2px 50px;
+}
+
+main ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+main img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    margin: 20px;
+}
+
+footer h6{
+    background-color: rgba(104, 104, 171, 0.975);
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
