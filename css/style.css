@@ -92,6 +92,11 @@ footer{
     margin: 20px;
 }
 
+h2 img{
+    display: inline-block;
+    border-image: 1000px;
+    }
+
 footer h6{
     background-color: rgba(104, 104, 171, 0.975);
     padding: 20px;
