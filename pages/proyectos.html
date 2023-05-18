@@ -6,50 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <!-- Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9901de5f59.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">    
+    <!-- Google -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 
 <body>
     <header>
+        <div>
+            <li class="name">LeoTabares</li>
+        </div>
         <nav>
             <ul>
-                <li><a id="bar" href="./mipc.html">MI PC</a></li>
-                <li><a id="inicio" href="../index.html" >INICIO</a></li>
-                <li><a id="bar" href="./canales.html">CANALES</a></li>
-                <li><a id="bar" href="./contacto.html">CONTACTO</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a class="press" href="./proyectos.html">Proyectos</a></li>
+                <li><a href="./quiensoy.html">¿Quien Soy?</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>PROYECTOS</h1>
-        <p>En esta seccion encontraremos distintos proyectos
-        </p>
-        <ul>
-            <li>Pantalla dentro de gabinete</li>
-            <li>Teclado macro Arduino</li>
-            <li>Mouse con mod lightweight</li>
-            <li>Joystick personalizado</li>
-            <li>Microfono con cable oculto</li>
-        </ul>
-        <h2>
-            <img width="501" height="173" src="../img/projects/keyboard/upwithlight.png" alt="">
-            <img width="135" height="135" src="../img/projects/minikeyboard/up.png" alt="Teclado Arduino impreso en 3D">
-            <img width="250" height="250" src="../img/projects/mouse/up.png" alt="Parte de arriba del mouse con modificacion lightweight">
-        </h2>
+        <h3>Proyectos</h3>
+        <div class="proyectos">
+            <a href="./keyboard.html"><img class="fade" id="keyboard" width="1022" height="353" src="../img/projects/keyboard/upwithlight.jpg" alt="Meclado 60 porciento mecanico vsg"></a>
+            <a href="./arduino.html"><img class="fade" id="arduino" width="353" height="353" src="../img/projects/minikeyboard/up.jpg" alt="Teclado Arduino impreso en 3D"></a>
+            <a href="./mouse.html"><img class="fade" id="mouse" width="300" height="353" src="../img/projects/mouse/up.jpg" alt="Mouse modificado cooler master mm720"></a>
+            <a href="./joystick.html"><img class="fade" id="joystick" width="520" height="353" src="../img/projects/joystick/up.jpg" alt="Joystick de xbox"></a>
+            <a href="./pc.html"><img class="fade" id="gamerpc" width="339" height="353" src="../img/projects/pc/up.jpg" alt="Pc gamer"></a>
+        </div>
     </main>
 
     <footer>
         <h6>
-            <p>Cordoba, Argentina</p>
+            Cordoba, Argentina
         </h6>
     </footer>
+    
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
 </html>

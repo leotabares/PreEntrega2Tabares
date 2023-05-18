@@ -6,43 +6,70 @@
 body{
     background-color: rgb(67, 67, 110);
     }
-
-header{
-    position: sticky;
+ 
+header {
     top: 5px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     margin: 20px;
+    justify-content: space-between;
 }
 
-nav ul{
-    background-color: rgba(104, 104, 171, 0.975);
+.name{
     padding: 20px;
-    border-radius: 50px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    display: block;
+    color: rgb(221, 221, 255, 0.975);
+    cursor: default;
 }
 
-nav ul li {
+.press {
+    color: rgba(104, 104, 171, 0.975);
+}
+
+header nav ul{
+    padding: 20px;
+}
+
+header nav ul li {
     display: inline-block;
     }
 
-#bar{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin: 50px;
+    color: rgb(221, 221, 255, 0.975);
+    margin: 20px;
 }
-#inicio{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 22px;
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
-    margin: 50px;
+nav ul li a:hover {text-decoration: underline; color: rgba(104, 104, 171, 0.975);}
+
+
+.indexphoto{
+    position: relative;
 }
 
+.indexphoto img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+}
+
+.fotodeperfil{
+    position: relative;
+}
+
+.fotodeperfil img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: auto;
+    border-radius: 100px;
+}
 
 main h1{
     font-family: 'Open Sans', sans-serif;
@@ -51,60 +78,319 @@ main h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: rgb(255, 255, 255);
-    margin: 20px
+    color: rgb(221, 221, 255, 0.975);
+    margin: 20px;
+    top: 280px;
+    position: relative;
 }
 
-main p{
+main h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    color: rgb(255, 255, 255);
-    margin: 10px 300px;
+    color: rgba(221, 221, 255, 0.975);
+    margin: 20px 650px;
+    top: 300px;
+    position: relative;
 }
 
-main ul li{
+main h3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 20px;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    margin: 2px 50px;
-}
-
-main ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-main img{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer{
-    position: absolute;
-    bottom: 0px;
-    margin: 20px;
-}
-
-h2 img{
-    display: inline-block;
-    border-image: 1000px;
-    }
-
-footer h6{
-    background-color: rgba(104, 104, 171, 0.975);
-    padding: 20px;
-    border-radius: 50px;
+    font-size: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    color: rgb(221, 221, 255, 0.975);
+    margin: 20px;
+    top: 10px;
+    position: relative;
 }
+
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.fade:hover {filter: opacity(.5);}
+
+.proyectos img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.componentes{
+    display: flex;
+    flex-wrap: wrap;
+    top: 10px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.componentes img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.escritoabajo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    color: rgba(221, 221, 255, 0.975);
+    top: 10px;
+    position: relative;
+    margin: 10px 50px;
+}
+
+@media (min-width:576px){.escritoabajo {margin: 10px 500px;}}
+
+.fotopc img{
+    float: left;
+    position: relative;
+}
+@media (min-width:576px) {
+    .fotopc {
+        margin-left: 100px;
+        margin-right: 90px;
+        margin-bottom: 10px;
+    }
+}
+
+.escritocostado {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    color: rgba(221, 221, 255, 0.975);  
+}
+@media (min-width:576px) {
+    .escritocostado {
+        margin: 30px 200px;
+    }
+}   
+
+footer{
+    position: relative;
+    bottom: 0px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+footer h6{
+    padding: 20px;
+    color: rgb(221, 221, 255, 0.975);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    cursor: default;
+}
+
+.formulario{  
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+  
+  
+input{
+    background-color: rgb(221, 221, 255, 0.975); 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgba(104, 104, 171, 0.975); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+textarea{
+    background-color: rgb(221, 221, 255, 0.975); 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgba(104, 104, 171, 0.975); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+label{
+    display: block; 
+    float: center;  
+  }
+
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgba(104, 104, 171, 0.975); 
+    border-color: rgba(104, 104, 171, 0.975); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+button p{
+    color: rgb(221, 221, 255, 0.975); 
+  }
+  
+span{
+    color: rgba(104, 104, 171, 0.975); 
+  }
+  
+.aviso{
+    font-size: 13px;  
+    color: rgb(221, 221, 255, 0.975);  
+  }
+  
+h1{
+    font-size: 39px;  
+    text-align: left; 
+    padding-bottom: 20px; 
+    color: rgba(104, 104, 171, 0.975);
+  }
+  
+h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: rgb(221, 221, 255, 0.975);   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: rgb(221, 221, 255, 0.975); 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: rgba(104, 104, 171, 0.975);
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: rgb(255, 255, 255);
+  }
+
+
+
+  /* mobile version */
+
+
+@media (max-width: 576px) {
+    header{
+        margin: 10px;
+    }
+    .name {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: 60px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    header nav ul {
+        margin-right: 0px;
+    }
+    .indexphoto img{
+        width: 360px;
+        height: 203px;
+    }
+    body header nav ul {
+        padding: 0px;
+    }
+    header nav ul li a {
+        font-size: 16px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .fotodeperfil img {
+        width: 140px;
+        height: 140px;
+    }
+    body main h1 {
+        font-size: 30px;
+        top: 200px;
+    }
+    body main h2 {
+        top: 190px;
+        margin: 15px 50px;
+    }
+    body main h3 {
+        font-size: 40px;
+    }
+    #keyboard {
+        width: 260px;
+        height: 90px;
+    }
+    #arduino {
+        width: 260px;
+        height: 260px;
+    }
+    #mouse {
+        width: 260px;
+        height: 306px;
+    }
+    #joystick {
+        width: 260px;
+        height: 176px;
+    }
+    #gamerpc {
+        width: 260px;
+        height: 271px;
+    }
+    #vsg {
+        width: 360px;
+        height: 124px;
+    }
+    .escritoabajo {
+        margin: 0px 0px;
+        top: 0px;
+    }
+    .joystick {
+        width: 360px;
+        height: 244px;
+    }
+    .fotopc img{
+        width: 360px;
+        height: 375px;
+        float: none;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .escritocostado {
+        margin: 20px 20px;
+    }
+}
+
+
+/* mobile version */
