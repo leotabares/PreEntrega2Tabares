@@ -1,0 +1,13 @@
+footer{
+    position: relative;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+footer h1{
+    padding: 20px;
+    color: nth($colores,2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    cursor: default;
+}

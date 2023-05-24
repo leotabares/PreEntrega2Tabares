@@ -1,0 +1,228 @@
+// INICIO
+
+.indexphoto{
+    position: relative;
+}
+
+.indexphoto img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+}
+
+// INICIO
+
+// PROYECTOS
+
+h2{
+    @extend %pantallaflex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    justify-content: center;
+    color: nth($colores,2);
+    margin: 20px;
+    top: 10px;
+    
+}
+
+#proyectos{
+    @extend %pantallaflex;
+    top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.fade:hover {filter: opacity(.5);}
+
+#proyectos img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+// PROYECTOS
+
+// SUB PAGINAS DE PROYECTOS
+
+.componentes{
+    @extend %pantallaflex;
+    top: 10px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.componentes img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.escritoabajo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    color: nth($colores,2);
+    top: 10px;
+    position: relative;
+    margin: 10px 50px;
+}
+
+@media (min-width:576px){.escritoabajo {margin: 10px 500px;}}
+
+.fotopc img{
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+@media (min-width:576px) {
+    .fotopc {
+        margin-left: 100px;
+        margin-right: 90px;
+        margin-bottom: 10px;
+    }
+}
+
+.escritocostado {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    color: nth($colores,2);  
+}
+@media (min-width:576px) {
+    .escritocostado {
+        margin: 30px 200px;
+    }
+}
+
+// SUB PAGINAS DE PROYECTOS
+
+// ¿QUIEN SOY?
+
+.fotodeperfil{
+    position: relative;
+}
+
+.fotodeperfil img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+h3{
+    @extend %pantallaflex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    justify-content: center;
+    color: nth($colores,2);
+    margin: 20px;
+    top: 280px;
+}
+
+h4{
+    @extend %pantallaflex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    color: nth($colores,2);
+    margin: 20px 600px;
+    top: 300px;
+}
+
+// ¿QUIEN SOY?
+
+// CONTACTO
+
+.formulario{  
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+  
+  
+input{
+    font-family: 'Montserrat', sans-serif;
+    background-color: nth($colores,3); 
+    width: 400px; 
+    height: 45px; 
+    border-style: none;  
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+  
+textarea{
+    font-family: 'Montserrat', sans-serif;
+    background-color: nth($colores,3); 
+    width: 400px; 
+    height: 150px;  
+    border-style: none;
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 15px; 
+    padding-top: 15px; 
+}
+  
+label{
+    font-family: 'Montserrat', sans-serif;
+    display: block; 
+    float: center;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background-color: nth($colores,3);
+    border-color: nth($colores,3); 
+    border-style: none;
+    width: 120px;
+    cursor: pointer;
+}
+  
+button p{
+    color: nth($colores,2); 
+}
+  
+span{
+    color: nth($colores,3);
+    
+}
+  
+.aviso{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;  
+    color: nth($colores,3);
+}
+  
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    color: nth($colores,2);
+}
+   
+::-webkit-input-placeholder {
+    color: nth($colores,2);
+  }
+
+
+// CONTACTO

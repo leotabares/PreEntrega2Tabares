@@ -1,0 +1,4 @@
+$colores:
+rgb(67, 67, 110),
+(lighten($color: rgb(67, 67, 110), $amount: 50%)),
+(lighten($color: rgb(67, 67, 110), $amount: 25%));

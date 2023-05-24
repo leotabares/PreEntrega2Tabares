@@ -10,60 +10,75 @@
     <!-- Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap" rel="stylesheet">
     <!-- Google -->
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 
 <body>
     <header>
-        <div>
-            <li class="name">LeoTabares</li>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a class="press" href="./proyectos.html">Proyectos</a></li>
-                <li><a href="./quiensoy.html">¿Quien Soy?</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">LeoTabares</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="press" aria-current="page" href="#">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/quiensoy.html">¿Quien soy?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-        <h3 >Teclado VSG MINTAKA</h3>
+        <h2>Teclado VSG MINTAKA</h2>
         <div class="componentes">
-            <img id="vsg" width="800" height="276" src="../img/projects/keyboard/upwithlight.jpg" alt="">
-            <img id="vsg" width="800" height="276" src="../img/projects/keyboard/upwithled.jpg" alt="">
-            <img id="vsg" width="800" height="276" src="../img/projects/keyboard/upwithoutkeys.jpg" alt="">
-            <img id="vsg" width="800" height="276" src="../img/projects/keyboard/back.jpg" alt="">
-            <img id="vsg" width="800" height="276" src="../img/projects/keyboard/inside.jpg" alt="">
-            <img id="vsg" width="800" height="276" src="../img/projects/keyboard/pcb.jpg" alt="">
+            <img class="vsg" width="800" height="276" src="../img/projects/keyboard/upwithlight.jpg" alt="Foto del teclado de la parte de arriba">
+            <img class="vsg" width="800" height="276" src="../img/projects/keyboard/upwithled.jpg" alt="Foto del teclado de la parte de arriba con baja luz">
+            <img class="vsg" width="800" height="276" src="../img/projects/keyboard/upwithoutkeys.jpg" alt="Foto del teclado de la parte de arriba sin keycaps">
+            <img class="vsg" width="800" height="276" src="../img/projects/keyboard/back.jpg" alt="Foto del teclado de la parte de abajo">
+            <img class="vsg" width="800" height="276" src="../img/projects/keyboard/inside.jpg" alt="Foto del teclado de la parte de adentro">
+            <img class="vsg" width="800" height="276" src="../img/projects/keyboard/pcb.jpg" alt="Foto del pcb del teclado">
         </div>
         <div>
         </div>
-        <h4 class="escritoabajo">
+        <h5 class="escritoabajo">
             Este teclado fue modificado en el 2023. Las piezas modificadas/agregadas son las siguientes:
-        </h4>
-        <h4 class="escritoabajo">
+        </h5>
+        <h5 class="escritoabajo">
             <li>Keycaps Redragon Scarab A130W-SP Pudding</li>
             <li>Switches Kailh Red Box</li>
             <li>Lubricante Krytox GPL205</li>
             <li>Switch Film 0.18mm</li>
             <li>Case Foam Neoprene</li>
             <li>O-rings</li>
-        </h4>
+        </h5>
     </main>
 
     <footer>
-        <h6>
+        <h1>
             Cordoba, Argentina
-        </h6>
+        </h1>
     </footer>
     
 

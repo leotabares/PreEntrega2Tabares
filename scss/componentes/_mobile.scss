@@ -1,0 +1,171 @@
+@media (max-width: 576px) {
+    
+    // HEADER
+    
+    header{
+        margin: 10px;
+    }
+    .name {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: 60px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    header nav ul {
+        margin-right: 0px;
+        padding: 0px;
+    }
+    header nav ul li a {
+        font-size: 16px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    // HEADER
+    
+    // INICIO
+
+    .indexphoto img{
+        width: 360px;
+        height: 203px;
+    }
+    .separador1 {
+        width: 20px!important;height: 300px!important;
+    }
+
+    // INICIO
+
+    // PROYECTOS
+
+    #proyectos {
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+    body main h2 {
+        font-size: 35px;
+    }
+
+    // PROYECTOS
+
+    // SUB PAGINAS DE PROYECTOS
+
+    .escritoabajo {
+        font-size: 20px;
+        margin: 15px 20px!important;
+    }
+    #keyboard {
+        width: 360px;
+        height: 124px;
+    }
+    #arduino {
+        width: 360px;
+        height: 360px;
+    }
+    #mouse {
+        width: 360px;
+        height: 423px;
+    }
+    #joystick {
+        width: 360px;
+        height: 243px;
+    }
+    #gamerpc {
+        width: 360px;
+        height: 376px;
+    }
+
+    .componentes {
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .vsg {
+        width: 370px;
+        height: 128px;
+    }
+
+    .mouse {
+        width: 360px;
+        height: 423px;
+    }
+
+    .arduino {
+        width: 360px;
+        height: 360px;
+    }
+
+    .joystick {
+        width: 360px;
+        height: 243px;
+    }
+    .fotopc img{
+        width: 360px;
+        height: 376px;
+        float: none;
+        margin-left: 15px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .escritocostado {
+        margin: 20px 20px!important;
+    }
+    .separadorpc {
+        width: 20px!important;height: 10px!important;
+    }
+
+    // SUB PAGINAS DE PROYECTOS
+
+    // ¿QUIEN SOY?
+
+    .fotodeperfil img {
+        width: 140px;
+        height: 140px;
+    }
+    body main h3 {
+        top: 220px;
+        margin: 15px 50px;
+        font-size: 35px;
+    }
+    body main h4 {
+        font-size: 20px;
+        margin: 15px 20px;
+        top: 230px;
+    }
+
+    // ¿QUIEN SOY?
+
+    // FOOTER
+
+    footer {
+        margin: 0px;
+    }
+
+    // FOOTER
+
+    // CONTACTO
+
+    .formulario{  
+        width: 200px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    input{
+        width: 330px; 
+        height: 45px; 
+    }
+    textarea{
+        width: 330px; 
+        height: 150px;
+    }
+
+    // CONTACTO
+}
