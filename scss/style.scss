@@ -14,6 +14,7 @@ body{
     background-color: nth($colores,1);
     }
 
+@import "./base/bootstrap";
 @import "./componentes/header";
 @import "./componentes/footer";
 @import "./componentes/main";

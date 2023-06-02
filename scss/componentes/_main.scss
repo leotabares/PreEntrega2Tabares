@@ -16,7 +16,7 @@
 
 // PROYECTOS
 
-h2{
+h1{
     @extend %pantallaflex;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -120,7 +120,7 @@ h2{
     border-radius: 100px;
 }
 
-h3{
+h2{
     @extend %pantallaflex;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -131,7 +131,7 @@ h3{
     top: 280px;
 }
 
-h4{
+h3{
     @extend %pantallaflex;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
